@@ -6,19 +6,14 @@ set background=dark
 hi clear
 let g:colors_name = 'night'
 
-let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 1
-
-if (has('termguicolors') && &termguicolors) || has('gui_running')
-  let g:terminal_ansi_colors = ['#1c1c1c', '#af5f5f', '#5f875f', '#87875f', '#5f87af', '#5f5f87', '#5f8787', '#6c6c6c', '#444444', '#ff8700', '#87af87', '#ffffaf', '#87afd7', '#8787af', '#5fafaf', '#ffffff']
-endif
-
 hi Boolean ctermfg=173 ctermbg=NONE cterm=NONE
 hi Character ctermfg=140 ctermbg=NONE cterm=NONE
 hi Comment ctermfg=240 ctermbg=NONE cterm=NONE
 hi Conditional ctermfg=140 ctermbg=NONE cterm=NONE
 hi Constant ctermfg=140 ctermbg=NONE cterm=NONE
 hi Define ctermfg=140 ctermbg=NONE cterm=NONE
-hi Error ctermfg=255 ctermbg=167 cterm=NONE
+hi Error ctermfg=196 ctermbg=NONE cterm=italic,bold
+hi Warning ctermfg=202 ctermbg=NONE cterm=italic,bold
 hi Float ctermfg=140 ctermbg=NONE cterm=NONE
 hi Function ctermfg=74 ctermbg=NONE cterm=NONE
 hi Identifier ctermfg=255 ctermbg=NONE cterm=NONE
@@ -111,8 +106,6 @@ hi! link htmlEndTag htmlTagName
 hi! link htmlLink Function
 hi! link htmlSpecialTagName htmlTagName
 hi! link htmlTag htmlTagName
-hi! link htmlBold Normal
-hi! link htmlItalic Normal
 hi! link htmlArg htmlTagName
 hi! link xmlTag Statement
 hi! link xmlTagName Statement
@@ -128,4 +121,9 @@ hi! link diffNoEOL WarningMsg
 hi! link diffOnly WarningMsg
 hi! link diffRemoved WarningMsg
 hi! link diffAdded String
-unlet s:t_Co
+
+hi htmlBold ctermfg=69 cterm=bold
+hi htmlItalic ctermfg=69 cterm=italic
+hi htmlBoldItalic ctermfg=69 cterm=bold,italic
+hi mkdCode ctermfg=9
+
