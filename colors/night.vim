@@ -8,12 +8,14 @@ let g:colors_name = 'night'
 
 hi Boolean ctermfg=173 ctermbg=NONE cterm=NONE
 hi Character ctermfg=140 ctermbg=NONE cterm=NONE
-hi Comment ctermfg=240 ctermbg=NONE cterm=NONE
+hi Comment ctermfg=22 ctermbg=NONE cterm=NONE
 hi Conditional ctermfg=140 ctermbg=NONE cterm=NONE
 hi Constant ctermfg=140 ctermbg=NONE cterm=NONE
 hi Define ctermfg=140 ctermbg=NONE cterm=NONE
-hi Error ctermfg=196 ctermbg=NONE cterm=italic,bold
-hi Warning ctermfg=202 ctermbg=NONE cterm=italic,bold
+"hi Error ctermfg=196 ctermbg=NONE cterm=italic,bold
+"hi Warning ctermfg=202 ctermbg=NONE cterm=italic,bold
+hi Error ctermfg=196 ctermbg=NONE cterm=underline
+hi Warning ctermfg=202 ctermbg=NONE cterm=underline
 hi Float ctermfg=140 ctermbg=NONE cterm=NONE
 hi Function ctermfg=74 ctermbg=NONE cterm=NONE
 hi Identifier ctermfg=255 ctermbg=NONE cterm=NONE
@@ -25,7 +27,7 @@ hi PreCondit ctermfg=140 ctermbg=NONE cterm=NONE
 hi PreProc ctermfg=140 ctermbg=NONE cterm=NONE
 hi Repeat ctermfg=140 ctermbg=NONE cterm=NONE
 hi Special ctermfg=117 ctermbg=NONE cterm=NONE
-hi SpecialComment ctermfg=242 ctermbg=NONE cterm=NONE
+hi SpecialComment ctermfg=22 ctermbg=NONE cterm=NONE
 hi SpecialKey ctermfg=59 ctermbg=237 cterm=NONE
 hi SpellBad ctermfg=255 ctermbg=167 cterm=NONE
 hi SpellCap ctermfg=255 ctermbg=74 cterm=NONE
