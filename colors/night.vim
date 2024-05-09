@@ -129,3 +129,4 @@ hi htmlItalic ctermfg=69 cterm=italic
 hi htmlBoldItalic ctermfg=69 cterm=bold,italic
 hi mkdCode ctermfg=9
 
+hi! link DiagnosticDeprecated DiagnosticUnderlineHint
