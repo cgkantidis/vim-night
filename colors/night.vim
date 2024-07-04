@@ -17,6 +17,7 @@ hi Define ctermfg=140 ctermbg=NONE cterm=NONE
 hi Error ctermfg=196 ctermbg=NONE cterm=underline
 hi Warning ctermfg=202 ctermbg=NONE cterm=underline
 hi Float ctermfg=140 ctermbg=NONE cterm=NONE
+hi NormalFloat ctermfg=140 ctermbg=236 cterm=NONE
 hi Function ctermfg=74 ctermbg=NONE cterm=NONE
 hi Identifier ctermfg=255 ctermbg=NONE cterm=NONE
 hi Keyword ctermfg=140 ctermbg=NONE cterm=NONE
