@@ -8,7 +8,7 @@ let g:colors_name = 'night'
 
 hi Boolean ctermfg=173 ctermbg=NONE cterm=NONE
 hi Character ctermfg=140 ctermbg=NONE cterm=NONE
-hi Comment ctermfg=22 ctermbg=NONE cterm=NONE
+hi Comment ctermfg=166 ctermbg=NONE cterm=NONE
 hi Conditional ctermfg=140 ctermbg=NONE cterm=NONE
 hi Constant ctermfg=140 ctermbg=NONE cterm=NONE
 hi Define ctermfg=140 ctermbg=NONE cterm=NONE
