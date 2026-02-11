@@ -77,7 +77,7 @@ hi VisualNOS ctermfg=NONE ctermbg=NONE cterm=underline
 hi VertSplit ctermfg=238 ctermbg=238 cterm=NONE
 hi WildMenu ctermfg=235 ctermbg=110 cterm=NONE
 hi DiffAdd ctermfg=111 ctermbg=235 cterm=reverse
-hi DiffChange ctermfg=188 ctermbg=235 cterm=reverse
+hi DiffChange ctermfg=none ctermbg=235
 hi DiffDelete ctermfg=222 ctermbg=235 cterm=reverse
 hi DiffText ctermfg=145 ctermbg=235 cterm=reverse
 hi IncSearch ctermfg=0 ctermbg=172 cterm=NONE
