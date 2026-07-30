@@ -195,4 +195,4 @@ hi @operator           ctermfg=117 ctermbg=NONE cterm=NONE
 hi @label              ctermfg=186 ctermbg=NONE cterm=NONE
 hi @property           ctermfg=255 ctermbg=NONE cterm=NONE
 hi @attribute          ctermfg=140 ctermbg=NONE cterm=NONE
-hi! link @spell        Comment
+hi! link @spell        Normal
