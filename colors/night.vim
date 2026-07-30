@@ -131,3 +131,68 @@ hi htmlBoldItalic ctermfg=69 cterm=bold,italic
 hi mkdCode ctermfg=9
 
 hi! link DiagnosticDeprecated DiagnosticUnderlineHint
+
+" Treesitter highlight groups
+" Variables
+hi @variable           ctermfg=255 ctermbg=NONE cterm=NONE
+hi @variable.builtin   ctermfg=117 ctermbg=NONE cterm=NONE
+hi @variable.parameter ctermfg=255 ctermbg=NONE cterm=NONE
+hi @variable.member    ctermfg=255 ctermbg=NONE cterm=NONE
+
+" Functions
+hi @function           ctermfg=74  ctermbg=NONE cterm=NONE
+hi @function.builtin   ctermfg=74  ctermbg=NONE cterm=NONE
+hi @function.call      ctermfg=74  ctermbg=NONE cterm=NONE
+hi @function.macro     ctermfg=140 ctermbg=NONE cterm=NONE
+hi @function.method    ctermfg=74  ctermbg=NONE cterm=NONE
+hi @function.method.call ctermfg=74 ctermbg=NONE cterm=NONE
+hi @constructor        ctermfg=74  ctermbg=NONE cterm=NONE
+
+" Types
+hi @type               ctermfg=140 ctermbg=NONE cterm=NONE
+hi @type.builtin       ctermfg=140 ctermbg=NONE cterm=NONE
+hi @type.definition    ctermfg=140 ctermbg=NONE cterm=NONE
+hi @module             ctermfg=255 ctermbg=NONE cterm=NONE
+
+" Keywords
+hi @keyword            ctermfg=140 ctermbg=NONE cterm=NONE
+hi @keyword.conditional ctermfg=140 ctermbg=NONE cterm=NONE
+hi @keyword.conditional.ternary ctermfg=140 ctermbg=NONE cterm=NONE
+hi @keyword.repeat     ctermfg=140 ctermbg=NONE cterm=NONE
+hi @keyword.return     ctermfg=140 ctermbg=NONE cterm=NONE
+hi @keyword.exception  ctermfg=167 ctermbg=NONE cterm=NONE
+hi @keyword.import     ctermfg=140 ctermbg=NONE cterm=NONE
+hi @keyword.directive  ctermfg=140 ctermbg=NONE cterm=NONE
+hi @keyword.directive.define ctermfg=140 ctermbg=NONE cterm=NONE
+hi @keyword.modifier   ctermfg=215 ctermbg=NONE cterm=NONE
+hi @keyword.operator   ctermfg=117 ctermbg=NONE cterm=NONE
+hi @keyword.type       ctermfg=215 ctermbg=NONE cterm=NONE
+hi @keyword.coroutine  ctermfg=140 ctermbg=NONE cterm=NONE
+
+" Literals
+hi @string             ctermfg=150 ctermbg=NONE cterm=NONE
+hi @string.escape      ctermfg=117 ctermbg=NONE cterm=NONE
+hi @number             ctermfg=173 ctermbg=NONE cterm=NONE
+hi @boolean            ctermfg=173 ctermbg=NONE cterm=NONE
+hi @character          ctermfg=140 ctermbg=NONE cterm=NONE
+
+" Constants
+hi @constant           ctermfg=140 ctermbg=NONE cterm=NONE
+hi @constant.builtin   ctermfg=117 ctermbg=NONE cterm=NONE
+hi @constant.macro     ctermfg=140 ctermbg=NONE cterm=NONE
+
+" Comments
+hi @comment            ctermfg=166 ctermbg=NONE cterm=NONE
+hi @comment.documentation ctermfg=166 ctermbg=NONE cterm=NONE
+
+" Punctuation
+hi @punctuation.delimiter ctermfg=250 ctermbg=NONE cterm=NONE
+hi @punctuation.bracket   ctermfg=250 ctermbg=NONE cterm=NONE
+hi @punctuation.special   ctermfg=117 ctermbg=NONE cterm=NONE
+
+" Misc
+hi @operator           ctermfg=117 ctermbg=NONE cterm=NONE
+hi @label              ctermfg=186 ctermbg=NONE cterm=NONE
+hi @property           ctermfg=255 ctermbg=NONE cterm=NONE
+hi @attribute          ctermfg=140 ctermbg=NONE cterm=NONE
+hi! link @spell        Comment
